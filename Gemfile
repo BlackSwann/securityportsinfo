@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 
+#Gem para simple-navigation, para crear menus
+gem 'simple-navigation'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
