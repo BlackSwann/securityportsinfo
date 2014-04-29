@@ -1,0 +1,27 @@
+<h1>Listing port_services</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Port</th>
+      <th>Service</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @port_services.each do |port_service| %>
+      <tr>
+        <td><%= port_service.port_id %></td>
+        <td><%= port_service.service_id %></td>
+        <td><%= link_to 'Show', port_service %></td>
+        <td><%= link_to 'Edit', edit_port_service_path(port_service) %></td>
+        <td><%= link_to 'Destroy', port_service, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Port service', new_port_service_path %>

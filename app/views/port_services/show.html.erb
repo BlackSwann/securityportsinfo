@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Port:</strong>
+  <%= @port_service.port_id %>
+</p>
+
+<p>
+  <strong>Service:</strong>
+  <%= @port_service.service_id %>
+</p>
+
+<%= link_to 'Edit', edit_port_service_path(@port_service) %> |
+<%= link_to 'Back', port_services_path %>

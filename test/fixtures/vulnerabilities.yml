@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  discovered: 2014-04-29
+  service_version_id: 1
+  service_id: 1
+
+two:
+  name: MyString
+  description: MyString
+  discovered: 2014-04-29
+  service_version_id: 1
+  service_id: 1

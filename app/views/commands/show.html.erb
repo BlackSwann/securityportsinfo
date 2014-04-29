@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Instruction:</strong>
+  <%= @command.instruction %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @command.description %>
+</p>
+
+<p>
+  <strong>Vulnerability:</strong>
+  <%= @command.vulnerability_id %>
+</p>
+
+<p>
+  <strong>Tool:</strong>
+  <%= @command.tool_id %>
+</p>
+
+<%= link_to 'Edit', edit_command_path(@command) %> |
+<%= link_to 'Back', commands_path %>

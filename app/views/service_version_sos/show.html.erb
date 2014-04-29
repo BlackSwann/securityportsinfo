@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Version so:</strong>
+  <%= @service_version_so.version_so_id %>
+</p>
+
+<p>
+  <strong>Service:</strong>
+  <%= @service_version_so.service_id %>
+</p>
+
+<%= link_to 'Edit', edit_service_version_so_path(@service_version_so) %> |
+<%= link_to 'Back', service_version_sos_path %>
